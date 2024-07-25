@@ -26,30 +26,39 @@ Follow these steps to set up and run the project locally.
 Ensure you have the following installed on your machine: Node.js, npm (Node Package Manager)
 
 # Clone the repository:
-git clone https://github.com/Ajithpmdwaraka/vocal-hub.git
+`git clone https://github.com/Ajithpmdwaraka/vocal-hub.git`
 
 Navigate to the project directory:
-cd vocalhub
+
+`cd vocalhub`
 
 Install the dependencies for both the frontend and backend:
-npm install
+
+`npm install`
 
 To run the project locally, use the following command:
-npm run dev
+
+`npm run dev`
 
 # Frontend Setup
 Navigate to the frontend directory and install dependencies:
-cd client 
-npm install
+
+`cd client` 
+`npm install`
+
 Start the React development server:
-npm start
+
+`npm start`
 
 # Backend Setup
 Navigate to the backend directory and install dependencies:
-cd server
-npm install
+
+`cd server`
+`npm install`
+
 Start the Express server:
-npm start
+
+`npm start`
 
 # Configuration
 Ensure you have all necessary environment variables configured. Create a .env file in the root of your backend directory with the necessary variables, such as:
